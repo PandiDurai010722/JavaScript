@@ -1,0 +1,268 @@
+First Principles of Thinking
+
+Molecule => Atom => Nucleus => Proton => Quark
+
+
+Installations
+
+# Text editor -Sublime/Notepad++ or IDE(Intergreted development environment) ex: vs-code
+# GitHub
+# Postman
+# Node
+# Browser
+# Accounts
+   @Heroku
+   @Netlify
+
+
+#Statically typed languages ex:(C,C++,Java)
+#Complie after run  any if issue  in code stop in complie
+
+#Dynamically typed languages ex:(JavaScript,Python,Php,Ruby,Perl,Erlang)
+# any if issue in code after in run stage
+
+
+First Web Browser
+
+#Tim Berners lee -> First Browser founder(WWW)
+#First Web Browser -> Mosaic ncsa organization
+#Marc Andreessen -> First Browser founder
+#Netscape -> Tim && Marc
+#Microsoft -> Internet explore (second browser) free
+#First War netscape vs internet explore
+#Second war Internet explore vs google chrome
+
+Who is found in javascript ?
+
+@ Created by Netscape - 1995
+@ Originally called LiveWire and LiveScript
+@ Developed by Brandon Eich
+@ Named to make use of java market buzz
+@ IE and Netscape rendering are slighty different
+@ JScript created by Microsoft vs JavaScript
+@ Standardized today as ECMAScript
+
+
+Evaluvation of JavaScript
+
+ES1=> 1997
+ES2=> 1998
+ES3=> 1999
+ES4=> 2009
+ES5=> 2015
+ES6=> 2016
+ES7=> 2017
+
+
+Browser
+
+HTML-> HTML PARSER DOM -> hyper text markup language
+
+JS -> JS Engine Javascript
+
+CSS -> CSS PARSER -> CSSOM castcated Style sheet
+
+Interview Question
+
+Dom is nothing but a tree like a structure or object respresent of your html elements
+
+
+Structure of a web Browser
+
+                                      User 
+                                      Interface-----|
+                                          |
+                                          |
+
+                                    Browser 
+                                    Engine       |------
+                                    Database                  
+                                          |
+                                          |
+                                    Rendering
+                                    Engine  |
+                                    |       |
+                                    |
+                        Netwoking            JS Engine
+                        UI backend     
+
+
+
+# Rendering engines
+
+Trident -IE
+
+Blink - Google Chrom ,Opera
+
+Firefox- Gecko
+
+Safari - Webkit
+
+Opera (Presto)
+
+
+
+# JS Engine
+
+V8- Google Chrome
+
+SpiderMonkey - Mozilo firefox
+
+Chakra -IE
+
+Nitro - Safari
+
+
+
+Design of JS - JavaScript
+
+- 2 Simple ideas
+- key: value- Everything
+- Asynchronous - I wont Block your work
+
+
+JavaScript - Sandboxed                JavaScript
+Stripped
+
+
+Ryan Dahl -Node JS (Creator)
+
+   Browser                               NodeJs
+
+
+    
+                      JavaScript
+
+
+.Google Chrome
+> Blink
+a.Fork of Webkit
+b.C++
+c.Developed in house by google as part of the Chromium Project, a Project " to open-Source the code for the Google Chrome browser"
+d.https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAlsAz24kx8LFByQ5xQnUg/edit
+
+
+.V8
+- Developed in house by google as part of the Chromium Project
+- Used in Node.js!
+
+.Mozilla firefox
+.Gecko
+  - Developed in house by Mozilla 
+  - Written in Rust!
+
+.SpiderMonkey
+ - The first JavaScript engine in history.Developed by Brendan Eich, the creator of javaScript while he was at Netscape
+
+ .safari
+  .Webkit 
+   -Created by Apple as a fork of the KHTML and KJS engines From Konqueror,
+   a web browser developed by KDE.
+    .Nitro(Formerly SquirrelFish)
+
+
+.Edge
+  .EdgeHTML
+   - A fork of Internet Explore's Trident that was made not - Shitty.
+
+
+   .Chakara
+     - Open -Sourced as ChakraCore.
+     -In 2016,Microsoft Created a PR in the Node.Js GitHub reop to use ChakraCore
+
+     instead of V8.This PR was expanded out into its own project and now lives here as a project of the node organization.
+
+.Opera
+  .Blink
+   .-Fork of Webkit.Part of chrome
+   .V8s
+    .if Something works on Google Chrome,you can expect it to work on opera due to the identical rendering engine
+    + JavaScript engine used.
+
+
+.Internet Explorer
+
+  . Trident
+  . Chakra
+
+
+# Common Internet Protocols
+
+  .TCP/IP      =>  Transfer control protocol
+  .HTTP/HTTPS  => Hyper text transfer protocal , Hyper text transfer protocal secure
+  .FTP => File Transfer Protocol
+
+
+       Unreliable                       Reliable
+    Connection less               Connection  Oriented
+
+    DNS,TFTP etc,                    HTTP,FTP
+    etc         Application Layer
+
+Messages |                                   |
+   Streams or Messages
+
+
+      User Datagram                           Transport
+       protocol                               Control
+       Protocol        Transport Layer
+
+
+       User Datagrams                       TCP Packets
+
+
+                          Internet
+                         
+                          Protocol
+                            Internet Layer
+
+                            |   IP Datagram
+
+                        Network
+                            Network Access Layer
+
+
+                            Access
+
+
+
+IP - MAC address - Port Discussion
+
+Why IP address when we have MAC address
+Why they are Called as Ports? Why we need ports?
+
+> IMEA - MAC
+> IP -  Mobile Number
+> Port - USB/C-type
+
+> IP -Internet Protocol
+> MAC - Media Access Control Address
+
+
+HTTP methods
+
+Students Information
+
+
+GET => Read Student = safe Methods
+HEAD => Inspect resource = safe Methods
+POST => Create Students
+PUT  => Update Student
+DELETE => Delete Student
+PATCH => Parically modify a resource
+TRACE => ECHO back Received message
+OPTIONS => Server Capabilities
+
+Website -> Static site
+WebApp -> Dynamic for Every User
+
+
+HTTP Return codes
+
+100-199 => Hold on.
+200-299 => successful
+300-399 => Redirection message
+400-499 => Client error responses
+500-599 => Server error responses
+
+

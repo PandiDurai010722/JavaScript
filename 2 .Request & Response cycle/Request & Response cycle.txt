@@ -1,0 +1,62 @@
+
+HTTP methods
+
+Students Information
+
+GET => Read Student = safe Methods
+HEAD => Inspect resource = safe Methods
+POST => Create Students
+PUT => Update Student
+DELETE => Delete Student
+PATCH  => Update Student
+TRACE => ECHO back Received message
+OPTIONS => Server Capabilities
+
+
+Website => static site
+WebApp => Dynamic for every user
+
+
+HTTP Return codes
+
+100-199 => Hold on.
+200-299 => successful
+300-399 => Redirection message
+400-499 => Client error responses
+500-599 => Server error responses
+
+
+What happens when you type in a url in a address bar in a browser?
+
+
+DNS => Domain Name system
+
+Cache => Temporay memory
+
+W3 Consortium => World wide web 
+
+Browser
+
+Operating system
+
+Router
+
+ISP (Internet Service Provider)
+
+
+initiate TCP Connection 
+
+TCP/IP 3 handshake
+
+client => SYN => Server
+Client <= SYN ACK <= Server
+Client => ACK => Server
+
+HTTP Request
+(Hyper Text  Transfer Protocol)
+
+TCP =>(Tranmission control Protocol )
+
+DOM => Document Object Module
+
+Ryan Dahl -Node JS (Creator)
